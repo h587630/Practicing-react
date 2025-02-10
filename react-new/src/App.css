@@ -1,0 +1,80 @@
+body{
+  background-color: rgb(56, 56, 73);
+}
+.header{
+  display:block;
+  margin-left: 5%;
+  color: aliceblue;
+}
+.text{
+  margin-left: 5%;
+  color: rgb(152, 152, 193);
+}
+/* Style for the tab button container */
+.tab-button {
+  margin-left: 5%;  
+  margin-right: 50%;  
+  display: flex; 
+  justify-content: space-between;  
+  background-color: rgb(56, 56, 73);  
+  padding: 20px; 
+  border-radius: 5px; 
+  list-style-type: none;
+}
+
+/* Style for individual tab buttons */
+.tab-button button {
+  background-color: rgb(56, 56, 73);  
+  color: rgb(181, 181, 212); 
+  padding: 10px 10px; 
+  border-radius: 5px;
+  cursor: pointer;  
+  transition: rgb(13, 13, 35);  /* Smooth transition for hover effect */
+  
+}
+/* Hover effect for tab buttons */
+.tab-button button:hover {
+  background-color: rgb(13, 13, 35); /* Change background on hover */
+  
+}
+
+.core{
+  background-color: rgb(13, 13, 35);
+  margin: 60px;
+
+}
+.core-concepts {
+  display: flex;
+  justify-content: space-between; /* Optional: to space them out */
+  flex-wrap: wrap; /* Allows wrapping if there isn't enough space */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  list-style-type: none; /* Remove the default bullets from the list */
+}
+
+.core-concepts li {
+  flex: 1 1 150px; /* Adjust the width of each concept, and it will take up at least 200px per item */
+  text-align: center;
+}
+
+.core-concepts img {
+  width: 100px; /* Adjust image size if needed */
+  height: auto;
+  margin-top:100px;
+  margin-bottom: 50px;
+}
+
+.core-concepts h2,
+.core-concepts p {
+  margin: 20px 0; /* Add some space between text elements */
+  color: rgb(181, 181, 212);
+  margin-bottom: 50px;
+  padding: 20px;
+}
+.components {
+  margin: 60px; 
+  background-color: rgb(9, 9, 24); 
+  color: rgb(181, 181, 212);
+  padding: 20px; 
+  border-radius: 5px;
+}
