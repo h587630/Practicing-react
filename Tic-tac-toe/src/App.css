@@ -11,7 +11,7 @@ body {
 .section-background {
   background-image: url('/image/bg-pattern.png');
   background-repeat: repeat;
-  height:auto; /* Set the height to ensure it repeats within this section */
+  height:auto; 
 }
 
 
@@ -26,9 +26,9 @@ main {
   height: auto;
   background-color: rgb(51, 50, 50);
   color: aliceblue;
-  border-radius: 10px; /* Optional: Adds rounded corners */
-  display: flex; /* Use flexbox */
-  flex-direction: column; /* Stack items vertically */
+  border-radius: 10px; 
+  display: flex; 
+  flex-direction: column; 
   margin-top: -50px;
 }
 
@@ -45,7 +45,7 @@ main {
 }
 
 .game-container li.highlighted {
-  border: 2px solid #1e856f; /* Border color when selected */
+  border: 2px solid #1e856f; 
 }
 
 .player-name,
@@ -117,7 +117,7 @@ input {
   margin-top: -20px;
 }
 
-/* Styling individual game cells */
+
 .game-cell {
   width: 80px;
   height: 80px;
