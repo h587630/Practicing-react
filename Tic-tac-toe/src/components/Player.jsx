@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types'; 
 import { useState } from 'react';
 
-export default function Player({ initialname, symbol }) {
+// eslint-disable-next-line react/prop-types
+export default function Player({ initialname, symbol, isActive }) {
     const [name, setName] = useState(initialname);
     const [isEditing, setIsEditing] = useState(false);
 
@@ -23,7 +24,7 @@ export default function Player({ initialname, symbol }) {
 
     return (
         <>
-            <li>
+            <li className={isActive ? 'active' : undefined}>
                 <span className="player">
                     {playerName}
                     <span className="player-symbol">{symbol}</span>
